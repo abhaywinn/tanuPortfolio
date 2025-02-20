@@ -6,7 +6,7 @@ const Footer = () => {
     <>
     <div className="bg-[#0d171f] flex justify-evenly items-center text-[14px]">
      <h2 className="md:text-xl text-sm name">Tanishka Gupta</h2>
-      <ul className="flex flex-col font-semibold text-[#ed6955] my-16 space-y-3 text-xs md:text-[14px]">
+      <ul className="flex flex-col font-semibold text-[#ed6955] my-24 space-y-3 text-xs md:text-[14px]">
         <h1 className="text-white">Links</h1>
         <li className="hover:opacity-80 underline"><a  href="/">Home</a></li>
         <li className="hover:opacity-80 underline"><a href="/about">About</a></li>
