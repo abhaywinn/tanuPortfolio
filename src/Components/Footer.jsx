@@ -16,7 +16,7 @@ const Footer = () => {
         <li className="hover:opacity-80 underline"><a href="/contact">Contact</a></li>
         </ul>
       <div className="flex flex-col space-y-4">
-      <p className="text-sm">Get in touch</p>
+      <p className="text-sm text-white">Get in touch</p>
       <ul className="flex gap-4 text-xl md:text-2xl text-[#ed6955]">
         <li> <a href='https://github.com/Billi007' className='hover:text-gray-400'><FaGithub /></a></li>
         <li> <a href='https://www.linkedin.com/feed' className='hover:text-gray-400'> <FaLinkedin /></a></li>

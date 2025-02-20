@@ -42,12 +42,6 @@ User Authentication: Implemented secure login and registration using JWT authent
     </ul>
   </div>
 
-  <div>
-  <h2  className='font-bold text-lg'>Live</h2>
-   <ul  className='text-[15px] my-2'>
-    <li className='text-[#f6654f] font-bold cursor-pointer text-xs'>Site</li>
-   </ul>
-  </div>
 </div>
 <div className='flex flex-col gap-10 my-10'>
    <img 
@@ -76,13 +70,14 @@ User Authentication: Implemented secure login and registration using JWT authent
 
 
 <h1 className='font-bold text-lg'>Project Description</h1>
-<p>Built a fully functional real-time chat application that allows users to communicate instantly.
+<p>Built a fully functional real-time chat application that allows users to communicate instantly with quick notfication alert.
    The app features a responsive and <span className='font-bold'>modern UI</span> powered by <span className='font-bold'> Tailwind CSS and Daisy UI</span>, ensuring a seamless 
-   experience across devices. Real-time messaging is enabled using <span className='font-bold'>Socket.IO</span>, providing instant message delivery and updates.</p>
+   experience across devices. Real-time messaging is enabled using <span className='font-bold'>Socket.IO</span>, providing instant message delivery, search chat and notifications updates.</p>
 
 <h1 className='font-bold text-lg'>Key Features</h1>
 <ol className='text-sm'>
-  <li><span className='font-extrabold'>Real-Time Messaging: </span>Instant message delivery and updates using Socket.IO.</li>
+  <li><span className='font-extrabold'>Real-Time Messaging: </span>Instant message delivery and notification updates using Socket.IO.</li>
+  <li><span className='font-extrabold'>Search chat functionality: </span>With using custom hooks, user can search chats.</li>
   <li><span className='font-extrabold'>Responsive Design: </span>A clean and modern UI built with Tailwind CSS and Daisy UI.</li>
   <li><span className='font-extrabold'>User Authentication: </span>Secure user authentication and authorization.</li>
   <li><span className='font-extrabold'>Database Integration: </span>Messages and user data are stored and managed using MongoDB.</li>

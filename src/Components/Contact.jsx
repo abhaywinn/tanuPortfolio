@@ -3,7 +3,7 @@ import { GiCoffeeCup } from "react-icons/gi";
 const Contact = () => {
   return (
     <>
-    <div className='flex justify-center items-center mx-6 gap-[8%] md:gap-[10%] mt-10 py-[10%]'>
+    <div className='flex  justify-center items-center mx-6 gap-[8%] md:gap-[10%] py-[10%]'>
 
       <div className='space-y-6 text-left'>
       <h1 className='text-[2.5rem] md:text-[3.8rem]  text-[#121e27]'>Let's have a chat</h1>

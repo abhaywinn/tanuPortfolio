@@ -3,7 +3,7 @@ import ResumeSection from './Resume_section';
 const About = () => {
   return (
     <>
-    <div className='md:max-w-4xl max-w-2xl p-10 my-5 text-left m-auto'>
+    <div className='md:max-w-4xl max-w-2xl p-7 my-5 text-left m-auto'>
       <div className='bg-white text-black space-y-4'>
       <h1 className='text-3xl md:text-5xl font-semibold'>I have always loved tech</h1>
       <h3 className="font-bold">My quick story</h3>

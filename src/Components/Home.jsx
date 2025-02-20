@@ -9,11 +9,11 @@ const Home = () => {
   return (
    <>
 
-   <div className='max-w-full flex flex-col justify-center items-center py-48 bg-[#121e27]'>
+   <div className='max-w-full flex flex-col justify-center items-center px-8 py-48 bg-[#121e27]'>
    
-     <div className='text-4xl md:text-[3.5rem] font-normal text-left leading-14 md:leading-20 tracking-normal md:tracking-wide'> Hi, I’m Tanishka | <span className='bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500 text-3xl md:text-5xl font-black'>Software</span>
+     <div className='text-4xl md:text-[3.5rem] font-normal text-left leading-14 md:leading-20 tracking-normal md:tracking-wide text-white'> Hi, I’m Tanishka | <span className='bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500 text-3xl md:text-5xl font-black'>Frontend</span>
       <br /> 
-      <span className='bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500 text-3xl md:text-5xl font-black'> Engineer</span>
+      <span className='bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-orange-500 text-3xl md:text-5xl font-black'> Developer</span>
  
     <div className='text-[#ed6955] flex gap-3 text-2xl md:text-3xl my-10 cursor-pointer'>
       <a href='https://github.com/Billi007' className='hover:text-gray-400'><FaGithub /></a>

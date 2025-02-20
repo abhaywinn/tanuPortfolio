@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Skills = () => {
   return (
     <>
-    <div className='bg-white '>
+    <div className='bg-white'>
     <h1 className='relative text-3xl  p-8 right-[29%] text-black font-extrabold'>My Skills</h1>
        <div className='flex flex-col md:flex-row gap-16 justify-center items-center py-10'>
 
@@ -16,7 +16,7 @@ const Skills = () => {
        </div>
 
 
-       <div className='flex flex-wrap gap-1 md:w-xl text-white w-lg px-5'>
+       <div className='flex flex-wrap gap-1 md:w-xl text-white w-lg px-16 md:px-0'>
         <button className='md:py-1 md:px-3 px-2 py-0.5 text-sm font-semibold bg-[#121e27] '>Javascript</button>
         <button className='md:py-1 md:px-3 px-2 py-0.5 text-sm  font-semibold bg-[#121e27] '>Typescript</button>
         <button className='md:py-1 md:px-3 px-2 py-0.5 text-sm  font-semibold bg-[#121e27]'>React</button>

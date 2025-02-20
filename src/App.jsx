@@ -15,7 +15,6 @@ function App() {
  
   return (
     <>
-   <div className=' text-white'>
    <Navbar/>
   <BrowserRouter>
   <Suspense fallback={<Loading/>}>
@@ -30,7 +29,6 @@ function App() {
   </Suspense>
   </BrowserRouter>
   <Footer/>
-   </div>
 
     </>
   )
