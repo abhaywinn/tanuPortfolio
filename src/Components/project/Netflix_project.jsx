@@ -30,13 +30,7 @@ const Netflix_project = () => {
       <li><a className='text-[#ed6955] font-bold text-xs' href="https://github.com/Billi007/Netflix-app">Github</a></li>
     </ul>
   </div>
-
-  <div>
-  <h2  className='font-bold text-lg'>Live</h2>
-   <ul  className='text-[15px] my-2'>
-    <li className='text-[#f6654f] font-bold cursor-pointer text-xs'>Site</li>
-   </ul>
-  </div>
+  
 </div>
 <div className='flex flex-col gap-10 my-10'>
    <img 
